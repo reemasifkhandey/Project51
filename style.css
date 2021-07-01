@@ -1,0 +1,40 @@
+    h1{
+        color:black; 
+        font-size: 40px;
+        font-style: initial;
+        text-align: center;
+    }
+    .header{
+    background-color: #222222; 
+    display:flex;
+    justify-content: space-between;   
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    }
+    .grid img{
+    border: 2px solid #000000;
+    border-radius: 50px ;
+    justify-content: space-evenly; 
+    }
+    .grid{
+        display: flow-root;
+        flex-wrap: wrap;  
+        justify-content: space-evenly; 
+        margin: 50px;
+     
+    }
+    .origami{
+     border-radius: 20px;
+     background-color: grey;   
+     width: 310px;
+     font-family: fantasy;
+     margin: 40px;
+     padding: 20px;
+    }
+    body{
+        margin: 0px;
+     background-color: #D15A;   
+    }
+    
